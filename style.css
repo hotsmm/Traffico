@@ -195,10 +195,6 @@ h2 {
     left: -210px;
 }
 
-.questions__answers {
-    
-}
-
 .questions__plus {
     background-color: #ffffff;
     width: 550px;
@@ -262,7 +258,7 @@ h2 {
 .clients {
     display: flex;
     flex-direction: row;
-    margin-bottom: 168px;
+    margin-bottom: 160px;
 }
 
 .clients__title {
@@ -279,31 +275,35 @@ h2 {
     margin-right: 230px;
 }
 
+.arrowright {
+    padding-left: 30px;
+}
+
 .client__person {
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    width: 1005px;
+    width: 1110px;
     height: 500px;
     padding-left: 40px;
     padding-top: 60px;
 }
 
 .clients__reviews {
-    width: 430px;
-    height: 370px;
+    width: 480px;
+    height: 400px;
     background-color: #ffffff;
     box-shadow: -10px 10px 25px 7px rgba(237, 77, 71, .1);
     margin-right: 22px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .clients__name {
     display: flex;
     flex-direction: row;
-    padding-left: 48px;
+    padding-left: 52px;
     justify-content: end;
 }
 
@@ -311,7 +311,7 @@ h2 {
     font-weight: 300;
     font-size: 16px; 
     width: 320px;
-    padding-left: 48px;
+    padding-left: 52px;
 }
 
 .name__text {
@@ -322,21 +322,26 @@ h2 {
     opacity: .8;
 }
 
+.bibica {
+    width: 500px;
+}
+
 .blue {
     background-color: #0F264C;
-    width: 1460px;
+    width: 1645px;
     border-top-right-radius: 100px;
-    height: 700px;
-    margin-top: -27px;
+    height: 750px;
+    margin-top: -35px;
 }
 
 .vector {
+    width: 950px;
     z-index: -1;
 }
 
 .consultant {
-    margin-top: -590px;
-    margin-left: 240px;
+    margin-top: -580px;
+    margin-left: 323px;
     border-left: #ED4D47 solid 10px;
     border-bottom-left-radius: 7px;
     border-top-left-radius: 7px;
@@ -353,20 +358,24 @@ h2 {
 }
 
 .form {
-    margin-bottom: 170px;
+    margin-bottom: 155px;
 }
 
 .form__wrap {
-    width: 450px;
-    height: 360px;
+    width: 510px;
+    height: 400px;
     background-color: #ffffff;
     box-shadow: -10px 10px 25px 7px rgba(237, 77, 71, .1);
-    margin-left: 730px;
-    margin-top: -400px;
+    margin-left: 855px;
+    margin-top: -460px;
     border-radius: 7px;
-    padding: 52px 75px;
+    padding: 55px;
     z-index: 1;
     position: relative;
+}
+
+.form__container {
+    margin-top: 25px;
 }
 
 .form__label {
@@ -374,10 +383,11 @@ h2 {
     font-size: 16px; 
     font-weight: 300;
     color: #402B2B;
+    padding-left: 25px;
 }
 
 .form__inp {
-    width: 440px;
+    width: 450px;
     height: 60px;
     border: #EE4D47 solid .5px;
     font-weight: 300;
@@ -387,30 +397,25 @@ h2 {
     display: block;
     font-size: 18px;
     border-radius: 5px;
-  }
+    margin-left: 25px;
+}
 
-  ::-webkit-input-placeholder { /* WebKit browsers */
+ ::-webkit-input-placeholder { /* WebKit browsers */
     color:   #402B2B;
     padding-left: 40px;
- }
+}
  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
     color:    #402B2B;
     padding-left: 40px;
- }
+}
  ::-moz-placeholder { /* Mozilla Firefox 19+ */
     color:    #402B2B;
     padding-left: 40px;
- }
+}
  :-ms-input-placeholder { /* Internet Explorer 10+ */
     color:   #402B2B;
     padding-left: 40px;
- }
-
- /*.form__inp:focus {
-    border: #EE4D47 solid 2px;
-    font-weight: bold;
-    cursor: pointer;
- }*/
+}
 
 input:focus {
     border: 2px solid #EE4D47;
@@ -421,26 +426,31 @@ input:focus {
     outline-offset: 0;
 }
 
+.button__form {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
 .menu__footer {
-    padding-left: 15px;
+    padding-left: 100px;
 }
 
 .menu__nav-footer {
     font-weight: 400;
     padding-bottom: 131px;
-    margin-left: 80px;
-    margin-right: 50px;
+    margin-left: 130px;
+    margin-right: 5px;
+    
 }
 
 .contact__footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1150px;
-    /*margin: 0 auto;*/
-    margin-left: 190px;
+    width: 1190px;
+    margin-left: 270px;
     padding-bottom: 50px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .messengers {
@@ -449,5 +459,5 @@ input:focus {
 }
 
 .messengers__item {
-    margin-left: 38px;
+    margin-left: 35px;
 }
