@@ -8,6 +8,10 @@
         width: 93%;
     }
 
+    .menu__nav-item {
+        margin-left: 90px;
+    }
+
     h1 {
         margin-left: 200px;
     }
@@ -19,6 +23,11 @@
     .aboutus {
         width: 930px;
         padding-bottom: 90px;
+        justify-content: flex-end;
+    }
+
+    .title {
+        width: 450px;
     }
 
     .title__img-up {
@@ -150,7 +159,7 @@
 
     .consultant {
         margin-left: 60%;
-        margin-top: -950px;
+        margin-top: -1000px;
     }
 
     .consultant__text { 
