@@ -92,6 +92,7 @@
         width: 95%;
         position: static;
         margin: 0 auto;
+        justify-content: center;
     }
 
     .questions__plus {
