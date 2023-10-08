@@ -33,6 +33,10 @@ header {
     display: flex;   
 }
 
+.menu__nav-mobile {
+    display: none;
+}
+
 .menu__nav-item {
     font-family: 'Rubik', sans-serif;
     margin-left: 100px;
@@ -84,6 +88,10 @@ h1 {
     height: 393px;
     margin-bottom: 170px;
     margin-top: -170px;
+}
+
+.model__mob {
+    display: none;
 }
 
 .aboutus {

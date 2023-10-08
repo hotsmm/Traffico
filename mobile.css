@@ -1,74 +1,104 @@
-@media screen and (max-width: 1215px) and (min-width: 950px)  {
+@media screen and (max-width: 950px) and (min-width: 500px)  { 
     .scene {
         width: 100%;
+        height: auto;
     }
     
     .menu {
+        width: 90%;
         margin: 0 auto;
-        width: 93%;
+    }
+   
+    .menu__nav {
+        display: none;
     }
 
     .menu__nav-mobile {
-        display: none;
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        width: 80%;
+        margin-top: 30px;
     }
 
     .menu__nav-item {
-        margin-left: 90px;
+        margin-left: 60px;
     }
 
     h1 {
-        margin-left: 200px;
+        font-size: 60px;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 10px;
     }
 
-    .button-getstarted {
-        margin-left: 200px;
-    }
-
-    .model__mob {
+    .model {
         display: none;
     }
 
+    .model__mob {
+        display: block;
+        width: 85%;
+        margin-top: 10%;
+    }
+
+    .model__img {
+        width: 85%;
+    }
+
     .aboutus {
-        width: 930px;
-        padding-bottom: 90px;
-        justify-content: flex-end;
+        flex-direction: column;
+        width: 95%;
+        padding-bottom: 0;
+        padding-top: 7px;
     }
 
     .title {
-        width: 450px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    h3 {
+        text-align: center;
+    }
+    h4 {
+        text-align: center;
     }
 
     .title__img-up {
         width: 450px;
+        margin-top: 30px;
     }
 
     .man__img {
         width: 450px;
     }
 
+    h4 {
+        width: 95%;  
+    }
+
     .application {
-        width: 920px;
-        justify-content: flex-start;
-        padding-bottom: 80px;
+        width: 95%;  
+        flex-direction: column;
+        padding-bottom: 10px;
     }
 
     .title__img-left {
-        width: 500px;
-    }
-
-    .woman__img {
-        width: 500px;
+        display: none;
     }
 
     .title-down {
-        width: 390px;
+        padding-top: 20px;
     }
 
     .title__text {
         width: 390px;
+        margin: 0 auto;
     }
 
     .faq {
+        margin-top: 40px;
         margin-bottom: 30px;
     }
 
@@ -79,30 +109,28 @@
     }
 
     .faq__container {
+        flex-direction: column;
         width: 95%;
         justify-content: center;
         position: static;
         padding-bottom: 20px;
+        margin: 0 auto;
     }
 
     .faq__title {
-        margin-left: 50px;
-        width: 450px;
-    }
-
-    .questions__img {
-        width: 460px;
-        height: 350px;
-        margin-top: 60px ;
+        padding-top: 40px;
+        margin: 0 auto;
+        
     }
 
     .faq_questions {
+        flex-direction: column;
         width: 95%;
         position: static;
         margin: 0 auto;
         justify-content: center;
-    }
-
+    } 
+    
     .questions__plus {
         width: 430px;
     }
@@ -121,18 +149,20 @@
         font-size: 17px; 
     }
 
-    .text-light {
-        padding-left: 20px;
+    
+    .plus-load {
+        margin-bottom: 60px;
     }
 
     .clients {
         flex-direction: column;
-        margin-bottom: 0;
     }
 
     .clients__title {
         margin: 0 auto;
         padding-left: 0;
+        width: 450px;
+        height: auto;
     }
 
     .clients__cards {
@@ -146,60 +176,32 @@
 
     .client__person {
         width: 95%;
-    }
-
-    .clients__reviews {
-        width: 420px;
-        height: 340px;
+        display: flex;
+        flex-direction: column;
     }
 
     .transparent {
         display: none;
     }
 
-    .blue {
+    .blue  {
         width: 100%;
     }
 
     .vector {
         width: 100%;
-        margin-top: 60px;
-    }
-
-    .consultant {
-        margin-left: 60%;
-        margin-top: -1000px;
-    }
-
-    .consultant__text { 
-        color: #0F264C;
-    }
-
-    .form {
-        margin-bottom: 80px;
     }
 
     .form__wrap {
-        margin-left: 9%;
+        margin-left: 6%;
         margin-top: 170px;
-    }
-
-    .contacts{
-        background-color: #0F264C;
-    }
-
-    .menu__footer {
-        padding-left: 0;
-        padding-top: 0;
+        width: 450px;
+        height: 340px;
     }
 
     .contact__footer {
         width: 90%;
         margin-left: 0;
         padding-top: 0;
-    }
-
-    .text-footer {
-        color: #ffffff;
     }
 }
