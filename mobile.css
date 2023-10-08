@@ -93,7 +93,7 @@
     }
 
     .title__text {
-        width: 390px;
+        width: 90%;
         margin: 0 auto;
     }
 
@@ -227,10 +227,6 @@
     .form__container {
         margin-top: 0;
     }
-
-    /*.form__label {
-        margin-bottom: 15px;
-    }  */  
 
     .form__inp {
         width: 400px;
