@@ -231,36 +231,50 @@
     .consultant {
         margin-left: 25%;
         margin-top: -660px;
+        margin-bottom: 60px;
     }
 
     .form__wrap {
-        margin-left: 4%;
         margin-top: 60px;
-        width: 450px;
-        height: 340px;
+        width: 400px;
+        margin-left: 0;
+        margin: 0 auto;
+        padding: 0;
     }
 
     .form__container {
-        margin-top: 0;
+        margin-top: 10px;
+        padding-top: 30px;
     }
 
     .form__inp {
-        width: 400px;
-        margin-top: 10px;
+        width: 350px;
+        margin-bottom: 25px;
     } 
+
+    .button__form {
+    margin-top: 0;
+    }    
     
     .contacts{
         background-color: #0F264C;
     }
 
+    .logo {
+        margin-left: 20%;
+        margin-top: 10px;
+    }
+
     .contact__footer {
         width: 90%;
         margin-left: 0;
-        padding-top: 0;
+        padding-top: 40px;
     }
+
 
     .menu__nav-item-mobil {
         font-weight: 400;
+        padding-top: 20px;
     }
 
     .text-footer {
