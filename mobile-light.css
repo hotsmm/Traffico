@@ -89,7 +89,7 @@
         }
     
         h4 {
-            width: 95%;  
+            width: 90%;  
             overflow: hidden;
             padding: 20px;
         }
@@ -301,7 +301,7 @@
         }
     
         .form__inp {
-            width: 250px;
+            width: 230px;
             margin-bottom: 25px;
         } 
     
