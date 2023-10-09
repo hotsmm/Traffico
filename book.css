@@ -1,4 +1,10 @@
 @media screen and (max-width: 1215px) and (min-width: 950px)  {
+    body {
+        margin: 0 auto;
+        box-sizing: border-box;
+        background-color: #F8F9FA;
+    }
+    
     .scene {
         width: 100%;
     }
