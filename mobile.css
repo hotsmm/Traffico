@@ -193,16 +193,22 @@
         width: 95%;
         display: flex;
         flex-direction: column;
-        
+        justify-content: center;
+        align-items: center;
     }
 
     .clients__reviews {
-        width: 420px;
-        height: 340px;
-        height: 100%;
-       /**/
+        width: 450px;
+       /*margin: 0 auto;*/
+        display: flex;
+        
+      
        margin-bottom: 22px;
-        /*margin: 0 auto;*/
+
+    }
+
+    .clients__name {
+        padding-bottom: 20px;
     }
 
     .transparent {
