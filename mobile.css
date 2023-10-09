@@ -30,6 +30,7 @@
         width: 80%;
         margin: 0 auto;
         padding-top: 10px;
+        text-align: center;
     }
 
     .model {
@@ -50,17 +51,18 @@
         flex-direction: column;
         width: 95%;
         padding-bottom: 0;
-        padding-top: 7px;
+        padding-top: 10px;
     }
 
     .title {
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
     }
 
     h3 {
         text-align: center;
     }
+
     h4 {
         text-align: center;
     }
@@ -78,6 +80,7 @@
     h4 {
         width: 95%;  
         overflow: hidden;
+        padding: 20px 30px;
     }
 
     .application {
@@ -95,7 +98,7 @@
     }
 
     .title__text {
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
     }
 
@@ -163,9 +166,12 @@
         font-size: 17px; 
     }
 
-    
     .plus-load {
         margin-bottom: 60px;
+    }
+
+    .plus-right {
+        box-shadow: -10px 10px 25px 7px rgba(237, 77, 71, .1);
     }
 
     .clients {
@@ -199,12 +205,8 @@
 
     .clients__reviews {
         width: 450px;
-       /*margin: 0 auto;*/
         display: flex;
-        
-      
-       margin-bottom: 22px;
-
+        margin-bottom: 22px;
     }
 
     .clients__name {
@@ -230,7 +232,7 @@
     }
 
     .consultant {
-        margin-left: 25%;
+        margin-left: 20%;
         margin-top: -660px;
         margin-bottom: 60px;
     }
