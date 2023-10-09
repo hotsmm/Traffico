@@ -163,30 +163,33 @@
     
         .questions__answers {
             margin: 0 auto;
+            width: 100%;
         }
         
         .questions__plus {
-            width: 70%;
+            width: 95%;
         }
     
         .questions__minus {
-            width: 70%;
+            width: 95%;
             margin-bottom: 20px;
         }
     
         .minus {
             padding-right: 15px;
+            padding-top: 8%;
         }
     
         .questions__text {
-            padding-right: 20px;
+            padding-right: 15px;
+            padding-left: 20px;
             line-height: 22px;
             font-size: 17px; 
         }
 
         .text-light {
-            width: 95%;
-            padding: 20px 35px 25px;
+            width: 90%;
+            padding: 20px ;
         }
     
         .plus-load {
@@ -282,7 +285,7 @@
 
         .consultant__text {
             padding-left: 10px;
-            width: 310px;
+            width: 90%;
         }    
     
         .form__wrap {
@@ -304,6 +307,7 @@
     
         .button__form {
             margin-top: 0;
+            width: 250px;
         }    
         
         .contacts{
@@ -332,5 +336,9 @@
     
         .text-footer {
             color: #ffffff;
+        }
+
+        .messengers__item {
+            margin-left: 30px;
         }
     }
