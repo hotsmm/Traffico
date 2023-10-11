@@ -81,6 +81,11 @@ h1 {
     margin-top: 50px;
 }
 
+.go-slider {
+    text-decoration: none;
+    color: white;
+}
+
 .model {
     background-image: url('./img/mobel.png');
     background-repeat: no-repeat;
