@@ -18,10 +18,12 @@ entry.forEach(change => {
 let options = {
 threshold: [0.5] };
 let observer = new IntersectionObserver(onEntry, options);
-let elements = document.querySelectorAll('.move, .title__text-slide');
+let elements = document.querySelectorAll('.move, .title__text-slide, .move__mob');
 
 for (let elm of elements) {
 observer.observe(elm);
 }
+
+
 
 
